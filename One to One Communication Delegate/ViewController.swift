@@ -30,6 +30,7 @@ class ViewController: UIViewController, ProductSelectionDelegate {
         
         pageSheetVC.delegate = self
         
+        // Create a Page Sheet
         pageSheetVC.modalPresentationStyle = .pageSheet
         pageSheetVC.sheetPresentationController?.detents = [.medium()]
         pageSheetVC.sheetPresentationController?.prefersGrabberVisible = true
